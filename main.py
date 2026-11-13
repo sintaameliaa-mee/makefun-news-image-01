@@ -4,7 +4,8 @@
 # 16%), with four panels for Europe joining the Ukraine peace talks, a drone
 # hitting a Russian warship, the global Microsoft outage, and the strike on a
 # Gaza hospital that killed six. The program copies it to the output
-# directory; the judge sees exactly these bytes.
+# directory; the judge sees exactly these bytes. The output directory comes
+# from MAKEFUN_OUTPUT_DIR and defaults to /output when it is not set.
 
 import os
 import shutil
